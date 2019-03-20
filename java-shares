@@ -1,0 +1,9 @@
+package javaapplication1;
+public class JavaApplication1 {
+    public static void main(String[] args) {
+        double buy_msft = 91.5, sell_msft = 96.75;
+        double num_shares = 100, buying_cost;
+        buying_cost = num_shares * buy_msft;
+        System.out.println("Buying cost = $" + buying_cost);
+    } // end of main
+} // end of class
